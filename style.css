@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 17.5em;
+    height: 30em;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    gap: 0.5em;
+    padding: 1em;
+}
+
+.equilabrium-img {
+    width: 17.5em;
+    height: 17.5em;
+    border-radius: 1em;
+}
+
+.equilabrium-header {
+    display: flex;
+    justify-content: left;
+    text-align: start;
+    justify-self: start;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.equilibrium-description {
+    margin: 0;
+    font-size: 0.9em;
+    color: hsl(215, 51%, 70%);
+}
+
+.equilibrium-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ethereum-details-container {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.ethereum-price {
+    color: hsl(178, 100%, 50%);
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.time-details-container {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.time-remaining-text {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.8em;
+}
+
+.line-break {
+    width: 17.5em;
+    border: 0.1em solid hsl(215, 32%, 27%);
+    text-align: left;
+    border-radius: 1em;
+    margin: 0.6em 0;
+}
+
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6em;
+}
+
+.avatar-img {
+    height: 2em;
+    width: 2em;
+    border: 0.1em solid white;
+    border-radius: 50%;
+}
+
+.avatar-details {
+    font-size: 0.9em;
+    color: hsl(215, 51%, 70%);
+    margin: 0;
+}
+
+.author-text {
+    color: white;
+}
